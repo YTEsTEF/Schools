@@ -1,0 +1,9 @@
+name: Schools
+main: BlueskyAsia\Schools\Main
+api: 3.0.0
+version: 1
+author: BlueskyAsia
+
+commands:
+  tugas:
+    description: Kerjakan Tugasmu!
