@@ -1,7 +1,7 @@
 name: Schools
-main: BlueskyAsia\Schools\Main
+main: BlueskyAsia\Schools\Quest
 api: 3.0.0
-version: 1
+version: 1.0.0
 author: BlueskyAsia
 
 commands:
